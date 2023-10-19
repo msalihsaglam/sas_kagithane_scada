@@ -3,5 +3,5 @@
 _[Bb]in/
 .vs/
 **/*.bak
-/data
+/db
 
