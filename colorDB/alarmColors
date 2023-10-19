@@ -1,0 +1,15 @@
+14
+"A_COL_AlarmBackground" N {255,0,0}
+"A_COL_AlarmForeground" N {0,0,0}
+"A_COL_CommandBackground" N {153,153,153}
+"A_COL_CommandForeground" N {0,0,0}
+"A_COL_FaultBackground" N {255,0,255}
+"A_COL_FaultForeground" N {0,0,0}
+"A_COL_InfoBackground" N {0,255,255}
+"A_COL_InfoForeground" N {0,0,0}
+"A_COL_StatusBackground" N {255,255,255}
+"A_COL_StatusForeground" N {0,0,0}
+"A_COL_SystemBackground" N {0,255,0}
+"A_COL_SystemForeground" N {0,0,0}
+"A_COL_WarningBackground" N {255,255,0}
+"A_COL_WarningForeground" N {0,0,0}

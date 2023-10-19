@@ -1,0 +1,11 @@
+10
+"A_COL_HighestBackground" N {255,38,64}
+"A_COL_HighestForeground" N {0,0,0}
+"A_COL_HighBackground" N {255,109,58}
+"A_COL_HighForeground" N {0,0,0}
+"A_COL_MediumBackground" N {255,144,56}
+"A_COL_MediumForeground" N {0,0,0}
+"A_COL_LowBackground" N {255,180,53}
+"A_COL_LowForeground" N {0,0,0}
+"A_COL_LowestBackground" N {255,215,50}
+"A_COL_LowestForeground" N {0,0,0}

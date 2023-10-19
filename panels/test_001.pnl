@@ -1,0 +1,68 @@
+V 14
+1
+LANG:10001 0 
+PANEL,-1 -1 586 382 N "_3DFace" 0
+E E E E E 1 -1 -1 0  53 98
+""0  1
+E E 5
+"CBRef" "1"
+"EClose" E
+"dpi" "96"
+"pdpi" "94.1104"
+"sizePolicy" "Ignored Ignored"
+0 0 0
+""
+DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+LAYER, 0 
+1
+LANG:10001 0 
+1 1 0 "" 0
+0
+1 3 1 "" 0
+0
+0
+LAYER, 1 
+1
+LANG:10001 0 
+0
+LAYER, 2 
+1
+LANG:10001 0 
+0
+LAYER, 3 
+1
+LANG:10001 0 
+0
+LAYER, 4 
+1
+LANG:10001 0 
+0
+LAYER, 5 
+1
+LANG:10001 0 
+0
+LAYER, 6 
+1
+LANG:10001 0 
+0
+LAYER, 7 
+1
+LANG:10001 0 
+0
+3 0 "PANEL_REF1" -1
+"sizePolicy" "Fixed Fixed"
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/obj_alertSignal.pnl" 53 98 T 0 U 
+2
+"$DP""eqp_001"
+"$node""alert1"
+3 1 "PANEL_REF2" -1
+"sizePolicy" "Fixed Fixed"
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/obj_alertSignal.pnl" 53 98 T 0 1 0 1 250 0
+2
+"$DP""eqp_001"
+"$node""alert1"
+0

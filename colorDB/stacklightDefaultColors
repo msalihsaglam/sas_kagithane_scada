@@ -1,0 +1,9 @@
+8
+"SD_COL_Red" N {255,0,0}
+"SD_COL_Yellow" N {255,255,0}
+"SD_COL_Green" N {0,255,0}
+"SD_COL_Blue" N {0,0,255}
+"SD_COL_White" N {255,255,255}
+"SD_COL_Magenta" N {255,0,255}
+"SD_COL_Orange" N {236,102,2}
+"SD_COL_Cyan" N {0,255,255}
