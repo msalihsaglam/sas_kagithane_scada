@@ -1,6 +1,6 @@
 [general]
 pvss_path = "C:/Siemens/Automation/WinCC_OA/3.19"
-proj_path = "D:/mss/prj/kgth_v0_0_1"
+proj_path = "D:/mss/prj/kagithane_scada_repo"
 proj_version = "3.19"
 langs = "en_US.utf8"
 useNGA = 1

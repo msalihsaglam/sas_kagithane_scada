@@ -4,4 +4,5 @@ _[Bb]in/
 .vs/
 **/*.bak
 /db
+/log
 
