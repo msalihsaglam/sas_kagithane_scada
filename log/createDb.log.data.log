@@ -1,0 +1,525 @@
+WCCILdata    (0), 2023.10.19 09:43:51.855, SYS,  INFO,        1, Manager Start, PROJ, kgth_v0_0_1, V 3.19 - 3.19 P001 platform Windows AMD64 linked at Feb 13 2023 20:29:48 (167919f779e)
+WCCILdata    (0), 2023.10.19 09:43:51.857, SYS,  INFO,        0, , (Re)Opening databases in single user mode without transaction logging.
+WCCILdata    (0), 2023.10.19 09:43:52.980, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2023.10.19 09:43:52.982, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2023.10.19 09:43:52.982, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2023.10.19 09:43:52.983, SYS,  INFO,        0, , Initializing last value cache
+WCCILdata    (0), 2023.10.19 09:43:52.986, SYS,  INFO,        0, , Loading internal datapoints
+WCCILdata    (0), 2023.10.19 09:43:52.986, SYS,  WARNING,    33, General error in Data Manager, DataManDpIntern, loadInternalDp, Internal DPE not found: _DataManager.DataBase.Check:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.987, SYS,  INFO,        0, , Initializing ID history
+WCCILdata    (0), 2023.10.19 09:43:52.987, SYS,  INFO,        0, , Initializing Alert history
+WCCILdata    (0), 2023.10.19 09:43:52.987, SYS,  INFO,        0, , Initializing Alert Class cache
+WCCILdata    (0), 2023.10.19 09:43:52.991, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2023.10.19 09:43:52.992, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.arNr:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.992, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.state:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.992, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.general.arType:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.992, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.general.arName:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.992, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.general.hostNameGet:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.992, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.general.hostNameSet:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.992, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.general.filePathGet:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.992, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.general.filePathSet:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.992, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.general.fileNameGet:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.992, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.general.fileNameSet:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.992, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.general.createArchive:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.992, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.general.forwardToRDB:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.992, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.error.errNum:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.992, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.error.errDp:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.992, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.error.errBit:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.992, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.error.errRead:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.992, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.size.maxDpElGet:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.size.maxDpElSet:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.size.maxValuesGet:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.size.maxValuesSet:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.size.maxFillPctGet:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.size.maxFillPctSet:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.size.maxHeapSizeGet:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.size.maxHeapSizeSet:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.size.maxCacheGet:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.size.maxCacheSet:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.size.maxCorrCacheGet:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.size.maxCorrCacheSet:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.intervals.aliveInterval:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.intervals.saveCycle:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeGet.validFrom:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeGet.validUntil:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeGet.time:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeGet.weekDay:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeGet.monthDay:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeGet.month:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeGet.syncTime:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeGet.syncWeekDay:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeGet.syncDay:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeGet.syncMonth:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeGet.interval:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeGet.delay:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeSet.validFrom:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.993, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeSet.validUntil:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.994, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeSet.time:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.994, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeSet.weekDay:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.994, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeSet.monthDay:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.994, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeSet.month:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.994, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeSet.syncTime:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.994, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileSwitch.switchTimeSet.syncWeekDay:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.994, SYS,  SEVERE,    118, Last error already repeated 50 times. Until another output occurs, this one will be blocked.
+WCCILdata    (0), 2023.10.19 09:43:52.994, PARAM,SEVERE,      8, Element does not exist, problem during archive initialization, datapoint does not exist:, _ValueArchive_0.setMgmt.fileCompression.autoStartAfterSwitchSet:_original.._value
+WCCILdata    (0), 2023.10.19 09:43:52.994, SYS,  INFO,      119, Last error repeated 213 times.
+WCCILdata    (0), 2023.10.19 09:43:52.994, SYS,  INFO,        0, , Initializing Value Archives
+WCCILdata    (0), 2023.10.19 09:43:52.995, SYS,  INFO,        0, , ValueArchive will be used...
+WCCILdata    (0), 2023.10.19 09:43:53.237, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ EVT02546NB.ad001.siemens.net (127.0.0.1)
+WCCILdata    (0), 2023.10.19 09:43:53.238, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 0 CONN: 1) initialised
+WCCILdata    (0), 2023.10.19 09:43:53.247, SYS,  INFO,        0, , Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILdata    (0), 2023.10.19 09:43:53.347, PARAM,WARNING,     7, Datapoint does not exist, UserTable, UserTable, _Users.UserId
+WCCILdata    (0), 2023.10.19 09:43:53.347, PARAM,WARNING,     7, Datapoint does not exist, ManagerTable, ManagerTable, _Managers.Auth.ManType
+WCCILdata    (0), 2023.10.19 09:43:53.515, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ EVT02546NB.ad001.siemens.net (127.0.0.1)
+WCCILdata    (0), 2023.10.19 09:43:53.525, SYS,  INFO,        0, , Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILdata    (0), 2023.10.19 09:43:53.697, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ EVT02546NB.ad001.siemens.net (127.0.0.1)
+WCCILdata    (0), 2023.10.19 09:43:53.701, SYS,  INFO,        0, , Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdata    (0), 2023.10.19 09:43:53.712, SYS,  INFO,        0, , Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdata    (0), 2023.10.19 09:43:54.050, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdata    (0), 2023.10.19 09:43:54.220, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ EVT02546NB.ad001.siemens.net (127.0.0.1)
+WCCILdata    (0), 2023.10.19 09:43:54.225, SYS,  INFO,        0, , Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdata    (0), 2023.10.19 09:43:54.257, SYS,  INFO,        0, , Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdata    (0), 2023.10.19 09:43:54.721, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdata    (0), 2023.10.19 09:43:54.900, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ EVT02546NB.ad001.siemens.net (127.0.0.1)
+WCCILdata    (0), 2023.10.19 09:43:54.913, SYS,  INFO,        0, , Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdata    (0), 2023.10.19 09:43:54.938, SYS,  INFO,        0, , Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdata    (0), 2023.10.19 09:44:05.118, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdata    (0), 2023.10.19 09:44:05.348, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ EVT02546NB.ad001.siemens.net (127.0.0.1)
+WCCILdata    (0), 2023.10.19 09:44:05.360, SYS,  INFO,        0, , Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdata    (0), 2023.10.19 09:44:05.375, SYS,  INFO,        0, , Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdata    (0), 2023.10.19 09:44:05.394, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.394, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.394, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.394, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.396, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.397, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.397, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.397, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.397, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.397, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.400, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.400, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.400, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.400, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.400, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.400, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.402, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.402, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.402, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.402, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.404, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.404, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.405, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.405, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.407, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.407, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.407, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.407, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.407, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.407, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.410, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.410, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.410, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.410, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.410, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.410, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.412, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.412, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.412, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.412, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.415, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.415, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.415, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.415, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.418, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.418, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.418, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.418, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.418, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.418, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.421, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.421, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.421, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.421, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.421, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.421, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.423, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.423, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.423, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.423, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.425, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.425, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.426, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.426, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.428, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.428, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.429, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.429, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.429, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.429, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.432, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.432, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.432, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.432, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.432, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.432, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.434, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.434, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.434, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.434, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.436, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.436, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.437, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.437, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.440, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.440, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.440, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.440, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.440, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.440, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.443, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.443, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.443, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.443, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.444, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.444, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.445, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.445, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.445, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.445, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.448, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.448, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.449, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.449, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.452, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.452, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.452, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.452, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.452, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.452, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.456, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.456, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.456, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.456, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.456, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.456, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.458, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.458, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.458, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.458, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.461, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.461, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.461, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.461, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.465, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.465, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.465, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.465, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.466, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.466, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.469, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.469, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.469, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.469, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.469, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.469, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.471, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.471, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.471, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.471, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.474, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.474, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.474, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.474, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.477, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.478, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.478, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.478, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.478, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.478, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.481, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.481, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.481, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.481, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.481, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.481, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.483, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.483, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.484, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.484, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.487, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.487, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.487, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.487, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.491, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.491, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.491, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.491, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.491, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.491, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.494, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.494, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.495, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.495, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.495, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.495, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.497, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.497, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.497, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.497, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.500, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.500, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.500, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.501, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.504, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.504, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.504, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.505, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.505, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.505, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.508, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.508, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.508, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.508, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.508, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.508, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.510, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.510, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.510, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.510, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.514, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.514, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.514, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.514, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.518, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.518, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.518, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.518, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.518, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.519, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.522, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.522, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.522, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.522, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.522, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.522, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.523, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.523, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.523, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.523, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.527, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.527, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.527, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.527, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.530, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.530, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.530, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.531, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.531, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.531, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.533, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.533, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.533, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.533, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.534, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.534, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.535, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.535, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.535, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.536, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.538, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.538, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.538, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.538, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.541, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.541, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.541, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.541, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.542, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.542, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.544, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.544, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.544, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.544, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.544, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.544, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.546, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.546, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.546, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.546, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.549, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.549, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.549, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.549, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.552, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.552, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.553, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.553, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.553, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.553, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.556, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.556, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.556, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.556, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.557, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.557, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.558, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.558, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.558, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.559, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.561, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.561, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.562, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.562, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.565, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.565, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.565, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.565, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.565, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.565, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.568, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.568, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.568, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.568, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.568, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.568, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.570, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.570, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.570, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.570, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.573, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.573, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.573, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.573, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.576, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.577, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.577, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.577, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.577, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.577, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.580, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.580, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.580, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.580, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.580, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.580, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.582, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.582, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.582, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.582, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.585, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.585, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.585, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.585, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.588, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.588, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.588, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.588, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.589, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.589, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.591, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.592, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.592, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.592, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.592, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.592, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.593, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.593, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.594, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.594, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.596, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.596, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.596, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.596, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.599, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.599, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.600, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.600, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.600, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.600, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.603, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.603, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.603, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.603, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.603, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.603, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.605, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.605, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.605, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.606, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.608, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.608, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.609, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.609, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.611, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.611, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.612, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.612, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.615, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.615, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.616, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.616, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.616, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.616, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.616, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.616, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.616, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.616, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.616, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.616, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.620, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.620, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.620, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.620, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.620, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.620, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.621, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.621, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.622, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.622, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.623, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.623, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.623, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.623, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.624, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.624, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.625, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.625, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.625, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.625, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.641, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.641, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.641, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.641, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.641, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.641, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.641, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.641, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.645, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.646, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.646, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.646, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.646, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.646, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.646, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.646, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.647, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.647, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.647, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.647, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.649, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.649, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.650, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.650, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.653, PARAM,WARNING,    54, Unexpected state, HistOrgMain, no internal archive dp specified in archive class of: -, parametrized dp in archive class is System1:_NGA_G_EVENT
+WCCILdata    (0), 2023.10.19 09:44:05.653, SYS,  SEVERE,     54, Unexpected state, HistOrgMain, no valid archive number
+WCCILdata    (0), 2023.10.19 09:44:05.823, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdata    (0), 2023.10.19 09:44:06.007, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ EVT02546NB.ad001.siemens.net (127.0.0.1)
+WCCILdata    (0), 2023.10.19 09:44:06.022, SYS,  INFO,        0, , Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdata    (0), 2023.10.19 09:44:06.052, SYS,  INFO,        0, , Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdata    (0), 2023.10.19 09:44:06.063, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdata    (0), 2023.10.19 09:44:06.113, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILdata    (0), 2023.10.19 09:44:06.221, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2023.10.19 09:44:06.244, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILdata    (0), 2023.10.19 09:44:07.234, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2023.10.19 09:44:07.247, SYS,  INFO,        2, Manager Stop
