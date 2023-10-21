@@ -1,7 +1,7 @@
 V 14
 1
 LANG:10001 0 
-PANEL,-1 -1 140 24 N "_3DFace" 2
+PANEL,-1 -1 519 196 N "_3DFace" 2
 "$DP"
 "$node"
 "main()
@@ -11,6 +11,9 @@ PANEL,-1 -1 140 24 N "_3DFace" 2
  E E E E 1 -1 -1 0  39 79
 ""0  1
 E "#uses \"miscs/misc\"
+
+string dpe;
+string picturepath = PROJ_PATH + \"pictures/icons/svg/\";
 
 void init()
 {
@@ -23,30 +26,55 @@ void init()
   }
   else
   {
-    //Check the alert Active/Deactive Status
-    string dpe = $DP +\".Alert.\"+$node;
-    bool act = check_alert_act_deact_status(dpe);
-
-    if(!act)
-    {
-      alertText.foreCol(\"STD_undefined\");
-      alertText.text(\"Sicaklik Yuksek Alarm\");
-      DebugFN(\"objectFlag\",\"TAlert is Deactive:\",dpe);
-    }
-    else
-    {
-       alertText.foreCol(\"red\");
-      //Check the alert Status
-  //     int check_alert_status(dpe);
-    }
+    dpe = $DP +\".Alert.\"+$node;
+    dpQueryConnectSingle(\"doIt\",true, \"\", \"SELECT '_alert_hdl.._active','_alert_hdl.._act_state','_alert_hdl.._class','_original.._value' FROM '\" + dpe + \"'\");
   }
+}
+
+void doIt(string s, dyn_dyn_anytype alertQueryValues)
+{
+  dyn_anytype alertValues = alertQueryValues.at(1);
+
+  bool active = alertValues.at(1);
+  int state = alertValues.at(2);
+  string alertClass = alertValues.at(3);
+  bool value = alertValues.at(4);
+
+  if(!active)
+  {
+    alertText.foreCol(\"STD_undefined\");
+    alertText.text(\"Alert Active Degil\");
+    DebugFN(\"objectFlag\",\"Alert is Deactive:\",dpe);
+  }
+  else
+  {
+    if(state == 0)
+      alertRec.backCol(\"SiemensStone\");
+    else
+      alertRec.backCol(get_color(alertClass,state));
+  }
+
+
+  //Set Text of Alert
+  alertText.text(get_description(dpe,value));
+
+  //Ack Icon
+  string icon;
+  if(state == 1 || state == 3)
+   icon =  \"single_nack\";
+  else
+    icon =  \"single_ack\";
+
+  ackRec.fill(picturepath+icon+\".svg\");
+
+
 }" 0
  4
 "CBRef" "1"
 "EClose" E
 "dpi" "96"
 "pdpi" "94.1104"
-1 1 0 0 0 0 1 0
+0 1 0 0 0 0 1 0
 ""
 DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
 LAYER, 0 
@@ -55,7 +83,7 @@ LANG:10001 0
 6 0
 "alertRec"
 ""
-1 39 79 E E E 1 E 1 E N {0,0,0} E N "STD_alert" E E
+1 39 79 E E E 1 E 1 E N {0,0,0} E N "SiemensStone" E E
  E E
 0 0 0 0 0 0
 E E E
@@ -70,11 +98,11 @@ LANG:10001 0
 "layoutAlignment" "AlignNone"
 "dashclr"N "_Transparent"
 "antiAliased" "0"
-E E 0 1 3 2 1 E 1 0 1 14 -17 1 E 39 79 62 102
+E E 0 1 3 2 1 E 1 0 1 34 -16 1 E 39 79 62 102
 2 1
 "alertText"
 ""
-1 85 66 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+1 105 67 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
  E E
 1 0 0 0 0 0
 E E E
@@ -90,12 +118,28 @@ LANG:10001 0
 "dashclr"N "_Transparent"
 "antiAliased" "0"
 "transformable" "0"
-E E 0 1 3 2 1 E U  0 E 85 66 186 81
-0 2 2 "0s" 0 0 0 192 0 0  85 66 1
+E E 0 1 3 2 1 E U  0 E 105 67 206 82
+0 2 2 "0s" 0 0 0 192 0 0  105 67 1
 1
 LANG:10001 41 Siemens DEDS,-1,16,5,50,0,0,0,0,0,Regular
 0 1
 LANG:10001 14 AlertDefiniton
+6 2
+"ackRec"
+""
+1 65 130 E E E 1 E 1 E N "_Transparent" E N {255,255,255} E E
+ E E
+2 0 0 0 0 0
+E E E
+0
+1
+LANG:10001 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 1.210526315789473 0 1.15 -29.68421052631578 -86.50000000000003 2  1 0  "pictures/icons/svg/single_nack.svg" 4294967295 E 65 130 84 150
 0
 LAYER, 1 
 1
@@ -132,5 +176,5 @@ LANG:10001 0
 "S 0" "0 0 1 1"
 "S 1" "1 0 1 1"
 "" ""
-0 1 0 0
+0 2 0 0
 0
