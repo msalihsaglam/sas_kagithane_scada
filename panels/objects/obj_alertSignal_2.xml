@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panel version="14">
+ <properties>
+  <prop name="Name">
+   <prop name="en_US.utf8"></prop>
+  </prop>
+  <prop name="Size">171 25</prop>
+  <prop name="BackColor">_3DFace</prop>
+  <prop name="RefPoint">52.99999999999997 89.99999999999997</prop>
+  <prop name="InitAndTermRef">True</prop>
+  <prop name="SendClick">False</prop>
+  <prop name="RefFileName"></prop>
+  <prop name="DPI">96</prop>
+  <prop name="PDPI">94.11039611039611</prop>
+  <prop name="layoutType">VBox</prop>
+  <prop name="layoutLeftMargin">0</prop>
+  <prop name="layoutRightMargin">0</prop>
+  <prop name="layoutTopMargin">0</prop>
+  <prop name="layoutBottomMargin">0</prop>
+  <prop name="layoutSpacing">0</prop>
+ </properties>
+ <events>
+  <script name="ScopeLib" isEscaped="1"><![CDATA[#uses &quot;miscs/misc&quot;
+
+string dpe;
+string picturepath = PROJ_PATH + &quot;pictures/icons/svg/&quot;;
+
+void init()
+{
+  //check the DP and DPE
+  dpe = $DP +$node;
+  bool validEqp = dpExists(dpe);
+  if(!validEqp)
+  {
+    alertText.foreCol(&quot;STD_device_not_existing&quot;);
+    DebugFN(&quot;objectFlag&quot;,&quot;There is no DP or DPE:&quot;,$DP,&quot;dpe:&quot;,dpe,&quot;moduleName:&quot;,myModuleName(), &quot;panelName:&quot;,myPanelName());
+  }
+  else
+  {
+    dpQueryConnectSingle(&quot;doIt&quot;,true, &quot;&quot;, &quot;SELECT '_alert_hdl.._active','_alert_hdl.._act_state','_alert_hdl.._class','_original.._value' FROM '&quot; + dpe + &quot;'&quot;);
+  }
+
+}
+
+void doIt(string s, dyn_dyn_anytype alertQueryValues)
+{
+  dyn_anytype alertValues = alertQueryValues.at(1);
+
+  bool active = alertValues.at(1);
+  int state = alertValues.at(2);
+  string alertClass = alertValues.at(3);
+  bool value = alertValues.at(4);
+
+  if(!active)
+  {
+    alertText.foreCol(&quot;STD_undefined&quot;);
+    alertText.text(&quot;Alert Active Degil&quot;);
+    DebugFN(&quot;objectFlag&quot;,&quot;Alert is Deactive:&quot;,dpe);
+  }
+  else
+  {
+    if(state == 0)
+      alertCir.backCol(&quot;SiemensStone&quot;);
+    else
+      alertCir.backCol(get_color(alertClass,state));
+  }
+
+
+  //Set Text of Alert
+  alertText.text(get_description(dpe,value));
+
+  //Ack Icon
+  string icon;
+
+  int ackType = get_ackType(alertClass);
+  if(ackType == 1)
+  {
+    ackRec.fill(&quot;[outline]&quot;);
+  }
+  else
+  {
+    ackRec.visible(true);
+    if(state == 1 || state == 3)
+     icon =  &quot;single_nack.svg&quot;;
+    else
+      icon =  &quot;single_ack.svg&quot;;
+
+    setValue(&quot;ackRec&quot;, &quot;fill&quot;, &quot;[pattern,[fit,any,&quot;+ picturepath+icon +&quot;]]&quot;);
+  }
+}
+]]></script>
+  <script name="Initialize" isEscaped="1"><![CDATA[main()
+{
+  init();
+}]]></script>
+ </events>
+ <shapes>
+  <shape Name="alertText" shapeType="PRIMITIVE_TEXT" layerId="0">
+   <properties>
+    <prop name="serialId">1</prop>
+    <prop name="Type"></prop>
+    <prop name="RefPoint">109 94</prop>
+    <prop name="Enable">True</prop>
+    <prop name="Visible">True</prop>
+    <prop name="ForeColor">_WindowText</prop>
+    <prop name="BackColor">_Window</prop>
+    <prop name="TabOrder">1</prop>
+    <prop name="ToolTipText">
+     <prop name="en_US.utf8"></prop>
+    </prop>
+    <prop name="minimumSize">-1 25</prop>
+    <prop name="maximumSize">-1 25</prop>
+    <prop name="sizePolicy">
+     <sizePolicy vertical="Fixed" horizontal="Expanding"/>
+    </prop>
+    <prop name="layoutAlignment">AlignNone</prop>
+    <prop name="snapMode">Point</prop>
+    <prop name="DashBackColor">_Transparent</prop>
+    <prop name="AntiAliased">False</prop>
+    <prop name="LineType">[solid,oneColor,JoinBevel,CapProjecting,1]</prop>
+    <prop name="BorderZoomable">False</prop>
+    <prop name="BorderScalable">False</prop>
+    <prop name="FillType">[outline]</prop>
+    <prop name="Location">109 94</prop>
+    <prop name="Font">
+     <prop name="en_US.utf8">Siemens DEDS,-1,16,5,50,0,0,0,0,0,Regular</prop>
+    </prop>
+    <prop name="Text">
+     <prop name="en_US.utf8">AlertDefiniton</prop>
+    </prop>
+    <prop name="Distance">2</prop>
+    <prop name="BorderOffset">2</prop>
+    <prop name="Bordered">False</prop>
+    <prop name="Fit">True</prop>
+    <prop name="Transformable">False</prop>
+    <prop name="TextFormat">[0s,,,AlignLeft]</prop>
+   </properties>
+  </shape>
+  <shape Name="ackRec" shapeType="RECTANGLE" layerId="0">
+   <properties>
+    <prop name="serialId">2</prop>
+    <prop name="Type"></prop>
+    <prop name="RefPoint">65 130</prop>
+    <prop name="Enable">True</prop>
+    <prop name="Visible">True</prop>
+    <prop name="ForeColor">_Transparent</prop>
+    <prop name="BackColor">{255,255,255}</prop>
+    <prop name="TabOrder">2</prop>
+    <prop name="ToolTipText">
+     <prop name="en_US.utf8"></prop>
+    </prop>
+    <prop name="sizePolicy">
+     <sizePolicy vertical="Fixed" horizontal="Fixed"/>
+    </prop>
+    <prop name="layoutAlignment">AlignNone</prop>
+    <prop name="snapMode">Point</prop>
+    <prop name="DashBackColor">_Transparent</prop>
+    <prop name="AntiAliased">False</prop>
+    <prop name="LineType">[solid,oneColor,JoinBevel,CapProjecting,1]</prop>
+    <prop name="BorderZoomable">False</prop>
+    <prop name="BorderScalable">False</prop>
+    <prop name="FillType" SharedPixmap="1">[pattern,[fit,any,pictures/icons/svg/single_nack.svg]]</prop>
+    <prop name="Geometry">1.210526315789473 0 0 1.15 -25.68421052631578 -59.50000000000003</prop>
+    <prop name="BorderStyle">Normal</prop>
+    <prop name="Location">65 130</prop>
+    <prop name="Size">20 21</prop>
+    <prop name="CornerRadius">0</prop>
+    <prop name="Transformable">True</prop>
+   </properties>
+   <events>
+    <script name="Clicked" isEscaped="1"><![CDATA[main(mapping event)
+{
+  bool result = set_Acknowledge(dpe+&quot;:_alert_hdl.._ack&quot;);
+
+  DebugFN(&quot;objectFlag&quot;,&quot;There is an Error during Acknowledgement&quot;, result);
+}]]></script>
+   </events>
+  </shape>
+  <shape Name="alertCir" shapeType="ELLIPSE" layerId="0">
+   <properties>
+    <prop name="serialId">4</prop>
+    <prop name="Type"></prop>
+    <prop name="RefPoint">212 51</prop>
+    <prop name="Enable">True</prop>
+    <prop name="Visible">True</prop>
+    <prop name="ForeColor">{0,0,0}</prop>
+    <prop name="BackColor">SiemensStone</prop>
+    <prop name="TabOrder">3</prop>
+    <prop name="ToolTipText">
+     <prop name="en_US.utf8"></prop>
+    </prop>
+    <prop name="minimumSize">25 25</prop>
+    <prop name="maximumSize">25 25</prop>
+    <prop name="sizePolicy">
+     <sizePolicy vertical="Fixed" horizontal="Fixed"/>
+    </prop>
+    <prop name="layoutAlignment">AlignNone</prop>
+    <prop name="snapMode">Point</prop>
+    <prop name="DashBackColor">_Transparent</prop>
+    <prop name="AntiAliased">True</prop>
+    <prop name="LineType">[solid,oneColor,JoinBevel,CapProjecting,1]</prop>
+    <prop name="BorderZoomable">False</prop>
+    <prop name="BorderScalable">False</prop>
+    <prop name="FillType">[solid]</prop>
+    <prop name="Geometry">1 0 0 1 -120 50.5</prop>
+    <prop name="Center">212 51</prop>
+    <prop name="X-Radius">11</prop>
+    <prop name="Y-Radius">11</prop>
+   </properties>
+  </shape>
+ </shapes>
+ <groups>
+  <layout parentSerial="-1" Name="LAYOUT_GROUP9" serial="0">
+   <properties>
+    <prop idx="2" name="shapeSerial">1</prop>
+    <prop idx="0" name="shapeSerial">2</prop>
+    <prop idx="1" name="shapeSerial">4</prop>
+    <prop name="isContainerShape">False</prop>
+    <prop name="layoutType">HBox</prop>
+   </properties>
+  </layout>
+ </groups>
+</panel>
