@@ -1,12 +1,8 @@
 V 14
 1
 LANG:10001 0 
-PANEL,-1 -1 586 408 N "_3DFace" 0
-"main()
-{
-  DebugN(PROJ_PATH);
-}" 0
- E E E E 1 -1 -1 0  53 98
+PANEL,-1 -1 574 372 N "_3DFace" 0
+E E E E E 1 -1 -1 0  53 98
 ""0  1
 E E 5
 "CBRef" "1"
@@ -22,7 +18,9 @@ LAYER, 0
 LANG:10001 0 
 1 1 0 "" 0
 0
-1 3 1 "" 0
+1 4 1 "" 0
+0
+1 7 2 "" 0
 0
 0
 LAYER, 1 
@@ -59,12 +57,19 @@ LANG:10001 0
 "objects/obj_alertSignal.pnl" 99 212 T 0 1 0 1 -9 -75
 2
 "$DP""eqp_001"
-"$node""alert1"
+"$node"".Alert.alert1"
 3 1 "PANEL_REF2" -1
 "layoutAlignment" "AlignNone"
 "" ""
 "objects/obj_alertSignal.pnl" 99 212 T 0 1 0 1 -9 -38
 2
 "$DP""eqp_001"
-"$node""alert2"
+"$node"".Alert.alert2"
+3 2 "PANEL_REF3" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/obj_alertSignal.pnl" 99 212 T 0 1 0 1 -8 6
+2
+"$DP""eqp_001"
+"$node"".Status.status1"
 0

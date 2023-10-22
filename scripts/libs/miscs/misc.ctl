@@ -61,3 +61,27 @@ string get_description(string dpe, bool val)
 
   return text;
 }
+
+int get_ackType(string alertClass)
+{
+  int type;
+  dpGet(alertClass+":_alert_class.._ack_type",type);
+
+  return type;
+}
+
+bool set_Acknowledge(string dpe)
+{
+  int iAcknowledgeType = DPATTR_ACKTYPE_SINGLE;
+
+  int result = dpSetWait( dpe, iAcknowledgeType);
+
+  dyn_errClass err;
+  err= getLastError();
+
+  if(result == -1 || dynlen(err) > 0)
+    return false;
+  else
+    return true;
+}
+

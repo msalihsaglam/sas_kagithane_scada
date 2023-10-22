@@ -1,0 +1,1 @@
+objectFlag	:Obje içerisindeki hataları göstermek için kullanılır.
